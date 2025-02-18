@@ -1,0 +1,62 @@
+body {
+    background-color: #f8e3e9; /* Roz pudră */
+    color: #5a3a4e; /* Violet închis pentru text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #e91e63; /* Roz aprins */
+    color: white; /* Text alb pentru contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px; /* Colțuri rotunjite */
+    transition: background-color 0.3s ease; /* Tranziție pentru hover */
+}
+
+button:hover {
+    background-color: #c2185b; /* Roz mai închis la hover */
+}
+
+.subreddit-card {
+    background-color: white; /* Fundal alb pentru carduri */
+    border: 1px solid #e0e0e0; /* Bordură subtilă */
+    border-radius: 8px; /* Colțuri rotunjite */
+    padding: 16px;
+    margin: 10px auto; /* Centrare și spațiere */
+    max-width: 400px; /* Lățime maximă pentru carduri */
+    text-align: left; /* Aliniere text la stânga */
+}
+
+.subreddit-card img {
+    border-radius: 50%; /* Imagine rotundă */
+    margin-bottom: 10px; /* Spațiere sub imagine */
+}
+
+.subreddit-card h3 {
+    color: #e91e63; /* Roz aprins pentru titluri */
+    margin-bottom: 10px;
+}
+
+.subreddit-card p {
+    color: #5a3a4e; /* Violet închis pentru text */
+    font-size: 14px;
+}
+
+.subreddit-card a button {
+    background-color: #e91e63; /* Roz aprins pentru butoane */
+    color: white; /* Text alb pentru contrast */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px; /* Colțuri rotunjite */
+    transition: background-color 0.3s ease; /* Tranziție pentru hover */
+}
+
+.subreddit-card a button:hover {
+    background-color: #c2185b; /* Roz mai închis la hover */
+}
